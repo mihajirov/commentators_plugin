@@ -135,7 +135,7 @@ class MZV_Commentators_list extends WP_Widget {
 	 */
 	public function form( $instance ) {
 		$show_comments                 = ! empty( $instance['show_comments'] ) ? $instance['show_comments'] : 'No';
-		$comentators_amount            = ! empty( $instance['commentators_amount'] ) ? $instance['commentators_amount'] : '-1';
+		$comentators_amount            = ! empty( $instance['commentators_amount'] ) ? $instance['commentators_amount'] : '0';
 		$commentators_without_comments = ! empty( $instance['commentators_without_comments'] ) ? $instance['commentators_without_comments'] : 'off';
 		$user_roles_to_show            = ! empty( $instance['user_roles_to_show'] ) ? $instance['user_roles_to_show'] : 'all';
 		?>
